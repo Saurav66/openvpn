@@ -16,7 +16,7 @@
     sudo service openvpn start
     sudo service openvpn enable
     
-     ![install](https://user-images.githubusercontent.com/50103349/152930229-1aba2bd1-eeda-4db2-bc97-ae74ccd15a60.png)
+    ![install](https://user-images.githubusercontent.com/50103349/152930229-1aba2bd1-eeda-4db2-bc97-ae74ccd15a60.png)
  ## Install openvpn on client server
     sudo apt install openvpn
    #### If openvpn install on Desktop system 
