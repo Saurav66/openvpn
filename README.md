@@ -23,13 +23,12 @@
     sudo apt install network-manager-openvpn
  ### Check openvpn service
     sudo systemctl status openvpn
- ### Download the .ovpn client file form openvpn server 
-     File location of client file: /etc/openvpn/
-   #### Copy on client server using scp (secure copy) and ftp
+ ### Downloaded the .ovpn client file on client server
+   #### Copy on client server using scp (secure copy) and ftp        
      On openvpn server:
-        sudo scp .ovpn hostname@ip_add:/file_location
+        sudo scp .ovpn hostname@ip_add:/etc/openvpn/client.conf
      On openvpn client server:
-        sudo scp hostname@ip_add:/file_location_of_ovpn .
+        sudo scp hostname@ip_add:/location_of_ovpn_file /etc/openvpn/client.conf
  #### Start openvpn client service:
      sudo systemctl start openvpn@client.service
 
